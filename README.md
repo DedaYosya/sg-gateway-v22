@@ -34,7 +34,7 @@
 
 ```bash
 curl -4 -fsSL \
-  https://raw.githubusercontent.com/s-gor/sg-gateway-v22/d87663737746b91237098342f9c6c1d37856c88c/deploy/install-from-github.sh \
+  https://raw.githubusercontent.com/DedaYosya/sg-gateway-v22/d87663737746b91237098342f9c6c1d37856c88c/deploy/install-from-github.sh \
 | sudo env \
   SG_GATEWAY_GITHUB_BRANCH=stable-02208 \
   SG_GATEWAY_SOURCE_COMMIT=d87663737746b91237098342f9c6c1d37856c88c \
@@ -44,13 +44,13 @@ curl -4 -fsSL \
 ### Update — существующий SG-Gateway
 
 ```bash
-curl -4 -fsSL https://raw.githubusercontent.com/s-gor/sg-gateway-v22/stable-02208/deploy/update-from-github.sh | sudo env SG_GATEWAY_GITHUB_BRANCH=stable-02208 bash
+curl -4 -fsSL https://raw.githubusercontent.com/DedaYosya/sg-gateway-v22/stable-02208/deploy/update-from-github.sh | sudo env SG_GATEWAY_GITHUB_BRANCH=stable-02208 bash
 ```
 
 ### Full Uninstall — полное удаление SG-Gateway
 
 ```bash
-curl -4 -fsSL https://raw.githubusercontent.com/s-gor/sg-gateway-v22/stable-02208/deploy/uninstall-from-github.sh | sudo env SG_GATEWAY_GITHUB_BRANCH=stable-02208 bash
+curl -4 -fsSL https://raw.githubusercontent.com/DedaYosya/sg-gateway-v22/stable-02208/deploy/uninstall-from-github.sh | sudo env SG_GATEWAY_GITHUB_BRANCH=stable-02208 bash
 ```
 
 Подтверждение удаления: `DELETE SG-GATEWAY`.
